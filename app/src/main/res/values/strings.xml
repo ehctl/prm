@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Spotify</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_songs_are_playing">No songs are playing</string>
+    <string name="my_spotify">My Spotify</string>
+    <string name="no_song_selected">No song selected</string>
+    <string name="start_timer">00:00</string>
+    <string name="search_for_songs">Search for songs</string>
+    <string name="fetching_fcm_failed">Fetching FCM registration token failed</string>
+    <string name="failed_to_subscribe">Failed to subscribe to subject: projectPrm</string>
+    <string name="subscribe_success">Subscribe to subject success: projectPrm</string>
+</resources>

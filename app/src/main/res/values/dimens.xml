@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="m50dp">50dp</dimen>
+    <dimen name="m75dp">75dp</dimen>
+    <dimen name="m8dp">8dp</dimen>
+    <dimen name="m16dp">16dp</dimen>
+    <dimen name="m12dp">12dp</dimen>
+    <dimen name="m14dp">14dp</dimen>
+    <dimen name="m18dp">18dp</dimen>
+    <dimen name="m32dp">32dp</dimen>
+    <dimen name="m10dp">10dp</dimen>
+    <dimen name="m100dp">100dp</dimen>
+    <dimen name="m84dp">84dp</dimen>
+</resources>

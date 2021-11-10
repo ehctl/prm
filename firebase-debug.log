@@ -1,0 +1,17 @@
+[debug] [2021-11-07T08:09:51.904Z] ----------------------------------------------------------------------
+[debug] [2021-11-07T08:09:51.907Z] Command:       D:\Download\firebase-tools-instant-win.exe C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase projects:list
+[debug] [2021-11-07T08:09:51.907Z] CLI Version:   9.22.0
+[debug] [2021-11-07T08:09:51.907Z] Platform:      win32
+[debug] [2021-11-07T08:09:51.907Z] Node Version:  v12.18.1
+[debug] [2021-11-07T08:09:51.908Z] Time:          Sun Nov 07 2021 15:09:51 GMT+0700 (Indochina Time)
+[debug] [2021-11-07T08:09:51.909Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-11-07T08:09:51.920Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-07T08:09:51.920Z] > authorizing via signed-in user (tuanlinh29720@gmail.com)
+[debug] [2021-11-07T08:09:51.927Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2021-11-07T08:10:02.212Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+[debug] [2021-11-07T08:10:02.528Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+    at Client.doRequest (C:\Users\admin\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\apiv2.js:213:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

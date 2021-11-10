@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="player_controller_button_color">#97a5d1</color>
+    <color name="player_controller_background">#F25F7070</color>
+    <color name="shimmer_fake_bg_color">#84868a</color>
+    <color name="shimmer_fake_loading_color">#B2B2B3</color>
+    
+    <color name="item_song_bg_color_1">#805D5DF8</color>
+    <color name="item_song_bg_color_2">#80F6675D</color>
+    <color name="item_song_bg_color_3">#80F8518A</color>
+    <color name="item_song_bg_color_4">#80DD56F4</color>
+    <color name="item_song_bg_color_5">#805B72F3</color>
+    <color name="item_song_bg_color_6">#805FB3F6</color>
+    <color name="item_song_bg_color_7">#805DC8F8</color>
+    <color name="item_song_bg_color_8">#8053F1E2</color>
+    <color name="item_song_bg_color_9">#805EF464</color>
+    <color name="item_song_bg_color_10">#80AEF35E</color>
+    <color name="item_song_bg_color_11">#80899135</color>
+    <color name="item_song_bg_color_12">#808C8332</color>
+    <color name="item_song_bg_color_13">#80ECB059</color>
+    <color name="item_song_bg_color_14">#80F38765</color>
+    
+    
+</resources>

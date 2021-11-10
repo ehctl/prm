@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_background"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/m12dp"
+            android:text="@string/my_spotify" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSongNameInNoti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/no_songs_are_playing"
+                android:textColor="@color/black"
+                android:textSize="@dimen/m16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSongInfoInNoti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                tools:text="Song: written by Mr Linh"
+                android:textSize="@dimen/m14dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btnFFLeftNoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/m10dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_fast_rewind"
+            tools:ignore="NestedWeights" />
+
+        <ImageView
+            android:id="@+id/btnResumeOrPauseNoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/m10dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_pause" />
+
+        <ImageView
+            android:id="@+id/btnFFRightNoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/m10dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_fast_forward" />
+    </LinearLayout>
+</LinearLayout>
